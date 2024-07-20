@@ -20,7 +20,6 @@ export async function action({request,params}){
         description: data.get('description'),
     }
 
-    data.get('');
     const response=await fetch('http://localhost:8080/events', {
         method:'POST',
         headers: {
